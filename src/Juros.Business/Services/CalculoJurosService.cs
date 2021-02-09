@@ -13,7 +13,7 @@ namespace Juros.Business.Services
 
         public string ShowMeTheCode()
         {
-            return "https://github.com/chesterbraga/Softplan.API";
+            return "https://github.com/chesterbraga/Juros.API";
         }
     }
 }

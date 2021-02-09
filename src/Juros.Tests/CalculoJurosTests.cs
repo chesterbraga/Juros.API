@@ -6,7 +6,7 @@ namespace Juros.Tests
     [TestClass]
     public class CalculoJurosTests
     {        
-        private const string _gitHub = "https://github.com/chesterbraga/Softplan.API";
+        private const string _gitHub = "https://github.com/chesterbraga/Juros.API";
         private ICalculoJurosService _calculoJurosService;
 
         [TestInitialize]
