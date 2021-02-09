@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Juros.Taxas.API", "src\Juros.Taxas.API\Juros.Taxas.API.csproj", "{18BAB5D6-C494-41DA-9DFC-A17FD094BF2D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Juros.Calculos.API", "src\Juros.Calculos.API\Juros.Calculos.API.csproj", "{B2F0BBA1-1433-4CC1-8319-1AA6E70B25D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Juros.Tests", "src\Juros.Tests\Juros.Tests.csproj", "{352EC2BB-9EB9-4262-A994-F4A462CA59C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Juros.Business", "src\Juros.Business\Juros.Business.csproj", "{D9B958A4-16A5-43FD-9E04-2346BF8901B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Business", "1 - Business", "{8A156270-563F-4690-847F-6FF8276AF0AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Taxa de Juros API", "2 - Taxa de Juros API", "{43FCC8E6-1E80-4768-B745-C194E98CD203}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Cálculo de Juros API", "3 - Cálculo de Juros API", "{FDF70975-662A-4C48-9A89-1B1170D89523}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Tests", "4 - Tests", "{5967F5E7-9010-45E6-8EC1-E60C2F678333}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Solution Items", "0 - Solution Items", "{E32EE102-BF66-4573-AA1C-33D99A43132A}"
+	ProjectSection(SolutionItems) = preProject
+		azure-pipelines.yml = azure-pipelines.yml
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18BAB5D6-C494-41DA-9DFC-A17FD094BF2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18BAB5D6-C494-41DA-9DFC-A17FD094BF2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18BAB5D6-C494-41DA-9DFC-A17FD094BF2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18BAB5D6-C494-41DA-9DFC-A17FD094BF2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2F0BBA1-1433-4CC1-8319-1AA6E70B25D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2F0BBA1-1433-4CC1-8319-1AA6E70B25D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2F0BBA1-1433-4CC1-8319-1AA6E70B25D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2F0BBA1-1433-4CC1-8319-1AA6E70B25D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{352EC2BB-9EB9-4262-A994-F4A462CA59C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{352EC2BB-9EB9-4262-A994-F4A462CA59C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{352EC2BB-9EB9-4262-A994-F4A462CA59C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{352EC2BB-9EB9-4262-A994-F4A462CA59C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9B958A4-16A5-43FD-9E04-2346BF8901B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9B958A4-16A5-43FD-9E04-2346BF8901B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9B958A4-16A5-43FD-9E04-2346BF8901B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9B958A4-16A5-43FD-9E04-2346BF8901B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{18BAB5D6-C494-41DA-9DFC-A17FD094BF2D} = {43FCC8E6-1E80-4768-B745-C194E98CD203}
+		{B2F0BBA1-1433-4CC1-8319-1AA6E70B25D8} = {FDF70975-662A-4C48-9A89-1B1170D89523}
+		{352EC2BB-9EB9-4262-A994-F4A462CA59C7} = {5967F5E7-9010-45E6-8EC1-E60C2F678333}
+		{D9B958A4-16A5-43FD-9E04-2346BF8901B0} = {8A156270-563F-4690-847F-6FF8276AF0AC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6C281A5-C9BD-436E-904F-DCB2EF5CE04E}
+	EndGlobalSection
+EndGlobal
